@@ -1,0 +1,90 @@
+body{
+  text-align:center;
+  font-family: "Courier New";
+  background:#FFE4E1;
+}
+
+header{
+ background-color:#FFE4E1;
+  color: solid grey;
+  padding: 10px;
+  font-family: "Courier New";
+   text-align: left;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.image img {
+  width: 35%; 
+  padding: 0;
+}
+
+section{
+  padding: 5px;
+  background:#D2691E;
+  position: fixed;
+  bottom: 0;
+ width: 100%;
+  
+}
+footer{
+  background-color: #E9967A;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+   text-decoration: none;
+  
+}
+footer a{
+  text-decoration: none;
+  color:#F0FFFF;
+  
+}
+nav a{
+  color: #CD5C5C;
+  text-decoration: none;
+  margin: 10px;
+  background:#FFA500;
+  
+}
+
+button{
+  border-radius: 1px;
+  background-color: #E9967A;
+  font-family: "Courier New";
+}
+input[type=text] {
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+header a{
+ background-color:#FFE4E1;
+  color: solid grey;
+  text-decoration: none;
+  padding: 10px;
+  
+  
+}
+.fa-facebook {
+  
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.fa-twitter {
+  
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.fa-instagram {
+  
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
